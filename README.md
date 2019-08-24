@@ -41,15 +41,16 @@ To actually work with larger pieces, it is necessary to have three chuncks of te
 Example of comparing Canterbury Tales to John Green and Shakespeare:
 `def  run_tests():`
     `source1 = TextModel('John Green')`
-   ` source1.add_file('fault_stars.txt')`
+    ` source1.add_file('fault_stars.txt')`
     `source2 = TextModel('Stephen King')`
-  `  source2.add_file('stephen_king.txt')`
-   ` new1 = TextModel('Canterbury Tales')`
-  `  new1.add_file('canterbury.txt')`
-   ` new1.classify(source1, source2) `
+    `source2.add_file('stephen_king.txt')`
+    `new1 = TextModel('Canterbury Tales')
+    new1.add_file('canterbury.txt')
+    new1.classify(source1, source2) `
 
 ## Screenshots
 ![Example screenshot](input.png)
+![Example screenshot](output.png)
 
 ## Status
 Project is: _finished_
