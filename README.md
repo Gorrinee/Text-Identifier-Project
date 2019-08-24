@@ -13,14 +13,14 @@ A python project of creating an algorithm for identifying an author of the passa
 
 ## General info
 Statistical models of text are one way to quantify how similar one piece of text is to another. Such models were used as evidence that the book The Cuckoo’s Calling was written by J. K. Rowling (using the name Robert Galbraith) in the summer of 2013. That story seemed very interesting to me and motivated me to create such an algorithm on my own. 
-Some of the techniques that can be used to identify an author of the text include analyzing similar patterns of used words, word and sentenses lengths, frequency of unique words and others. 
+Some of the techniques that can be used to identify an author of the text include analyzing similar patterns of used words, word and sentences lengths, frequency of unique words and others. 
 
-*Atributes used in the algorithm:* 
+*Attributes used in the algorithm:* 
 * Unique words
-* Word lenghts
+* Word lengths
 * Unique stems
 * Sentence lengths
-* Use of special characters
+* Use of special characters 
 
 
 ## Testing the Algorithm
@@ -36,11 +36,13 @@ In the end, the first two were more similar to Stephen King, whereas the second 
 Even though the algorithm is not 100% accurate and did not catch themes in the writing as much as I thought it would, it worked every time I compared a piece of work to something written by the same author. It could be more accurate if it had more elements to compare the pieces of text to make a more thorough comparison and longer texts input into the program, as it could have been more accurate because it would have had more data to choose from. 
 
 ## Setup
-To test the code, you can simply have three short strings that you would put into `test()` command to look if the code is working correclty. 
-To actually work with larger pieces, it is necessary to have three chuncks of text. Two of them would be used as source bodies, so, ideally, they should be as long as posiible, so that the programm had more data to analyze. Those two files will be saved by the code as "source1" and "source2" by the command `source1.add_file('name_of_file.txt')`. The third piece of text is the one you are trying to identify, which would be named "new". After that you can run the test and it will give you the result. 
+To quickly test if the code is working correctly and see the algorithm for yourself, you simply need three short strings that you would put into `test()`, as shown on the screenshots. 
+
+To actually work with larger pieces, it is necessary to have three chunks of text. Two of them would be used as source bodies, so, ideally, they should be as long as possible, in order for the program to have more data to analyze. Those two files will be saved by the code as "source1" and "source2" by the command `source1.add_file('name_of_file.txt')`. The third piece of text is the one you are trying to identify, which would be named "new". After you have chosen the files, you can run the test and see the conclusion. 
 
 ## Code Examples
 Example of comparing Canterbury Tales to John Green and Shakespeare:
+
 `def  run_tests():`
 
     source1 = TextModel('John Green')
