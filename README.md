@@ -49,7 +49,8 @@ Example of comparing Canterbury Tales to John Green and Shakespeare:
     new1.classify(source1, source2) `
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](input.png)
+![Example screenshot](output.png)
 
 ## Status
 Project is: _finished_
