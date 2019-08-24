@@ -44,8 +44,7 @@ To actually work with larger pieces, it is necessary to have three chunks of tex
 Example of comparing Canterbury Tales to John Green and Shakespeare:
 
 `def  run_tests():`
-
-    source1 = TextModel('John Green')
+    `source1 = TextModel('John Green')
     source1.add_file('fault_stars.txt')
  
     source2 = TextModel('Stephen King')
@@ -54,7 +53,7 @@ Example of comparing Canterbury Tales to John Green and Shakespeare:
     new1 = TextModel('Canterbury Tales')
     new1.add_file('canterbury.txt')
     
-    new1.classify(source1, source2) `
+    new1.classify(source1, source2)`
 
 ## Screenshots 
 Examples of working algorithm using strings for test:
