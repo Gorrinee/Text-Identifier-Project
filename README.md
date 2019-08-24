@@ -21,7 +21,7 @@ To test my algorithm, I used Stephen King’s works and _The Fault in Our Stars_
 My new texts/bodies of texts were:
 * _Canterbury Tales_ by Geoffrey Chaucer, 
 * _The Running Man_ (a book written by Stephen King under a pseudonym), 
-* a paper from the BU WR100 Journal titled _“Sylvia Plath: The Dialogue Between Poetry and Painting”_ ,
+* a paper from the BU WR100 Journal titled _“Sylvia Plath: The Dialogue Between Poetry and Painting”_,
 * _The Hunger Games_ by Suzanne Collins
 
 In the end, the first two were more similar to Stephen King, whereas the second two resembled The Fault in Our Stars. I expected The Running Man to be similar to Stephen King’s work because it was written by him, just under a pseudonym. I also expected Canterbury Tales to be more like Stephen King’s work because it is an old piece of literature and Stephen King writes more formally than John Green. In the same way, I expected both the WR100 paper and The Hunger Games to resemble The Fault in Our Stars because they are more modern and casual in their style of writing.
