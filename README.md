@@ -4,12 +4,9 @@ A python project of creating an algorithm for identifying an author of the passa
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
+* [Testing the Algorithm](#testing-the-algorithm)
 * [Setup](#setup)
-* [Features](#features)
 * [Status](#status)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
 
 ## General info
@@ -37,21 +34,22 @@ In the end, the first two were more similar to Stephen King, whereas the second 
 Even though the algorithm is not 100% accurate and did not catch themes in the writing as much as I thought it would, it worked every time I compared a piece of work to something written by the same author. It could be more accurate if it had more elements to compare the pieces of text to make a more thorough comparison and longer texts input into the program, as it could have been more accurate because it would have had more data to choose from. 
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+To test the code, you can simply have three short strings that you would put into `test()` command to look if the code is working correclty. 
+To actually work with larger pieces, it is necessary to have three chuncks of text. Two of them would be used as source bodies, so, ideally, they should be as long as posiible, so that the programm had more data to analyze. Those two files will be saved by the code as "source1" and "source2" by the command `source1.add_file('name_of_file.txt')`. The third piece of text is the one you are trying to identify, which would be named "new". After that you can run the test and it will give you the result. 
 
 ## Code Examples
-Show examples of usage:
-`put-your-code-here`
+Example of comparing Canterbury Tales to John Green and Shakespeare:
+`def  run_tests():
+    source1 = TextModel('John Green')
+    source1.add_file('fault_stars.txt')
+    source2 = TextModel('Stephen King')
+    source2.add_file('stephen_king.txt')
+    new1 = TextModel('Canterbury Tales')
+    new1.add_file('canterbury.txt')
+    new1.classify(source1, source2) `
 
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+## Screenshots
+![Example screenshot](./img/screenshot.png)
 
 ## Status
 Project is: _finished_
