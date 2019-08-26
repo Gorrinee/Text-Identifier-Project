@@ -1,5 +1,5 @@
-# Text-Identifier-Project
-A python project of creating an algorithm for identifying an author of the passage based on comparisons with other texts.
+# Text Identifier Project
+> A python project of creating an algorithm for identifying an author of the passage based on comparisons with other texts.
 
 
 ## Table of contents
